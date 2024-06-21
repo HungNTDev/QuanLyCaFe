@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLCaFe">
+  <DataContextMoniker Name="/QLCaFeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="431846ef-beea-4a65-bf2f-f9d8fca10a43" isExpanded="false" absoluteBounds="5.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Bill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00caee21-2be2-449e-a3b5-ba3ad4264a26" absoluteBounds="5.64, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6254aa42-75e0-4763-bc96-ecd968f45193" isExpanded="false" absoluteBounds="5.25, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bfa9a380-6503-412d-be18-78cfb582b5cc" absoluteBounds="5.265, 1.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7b7da81-8c72-4180-bfde-3d5efa3d0fcb" isExpanded="false" absoluteBounds="2.875, 0.625, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/DetailBill" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c311b8a-f4a0-4033-98d1-bee020725da4" absoluteBounds="2.8899999999999997, 1.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.625 : 0.7875); (5.20833333333333 : 0.787499999999999 : JumpStart); (5.04166666666667 : 0.7875 : JumpEnd); (4.875 : 0.7875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Bill/Bill_DetailBill" />
+      <nodes>
+        <classShapeMoniker Id="431846ef-beea-4a65-bf2f-f9d8fca10a43" />
+        <classShapeMoniker Id="c7b7da81-8c72-4180-bfde-3d5efa3d0fcb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="57283c55-6f1b-46c4-8bf5-a68349816504" isExpanded="false" absoluteBounds="5.375, 2.25, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/DetailStatistic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e60e692-191f-4837-be15-52f9295a717f" absoluteBounds="5.3900000000000006, 2.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9408bb4e-2475-4126-bc44-1813a2111629" isExpanded="false" absoluteBounds="0.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Log" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41ce1597-27a7-45ca-a12d-efecfcff8779" absoluteBounds="0.64000000000000012, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f008458e-6d99-4e17-aa8d-ac66f86a8e27" isExpanded="false" absoluteBounds="5.5, 3.125, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Material" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91011f63-ad1b-4a7e-97d5-a343f1d4e1ee" absoluteBounds="5.515, 3.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53410623-9fb4-4877-81cf-9e680dff97f7" isExpanded="false" absoluteBounds="2.375, 1.875, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1adbdc65-ce85-465f-8609-6e56d415cc61" absoluteBounds="2.39, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 1.875); (3.625 : 1.075)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Menu/Menu_DetailBill" />
+      <nodes>
+        <classShapeMoniker Id="53410623-9fb4-4877-81cf-9e680dff97f7" />
+        <classShapeMoniker Id="c7b7da81-8c72-4180-bfde-3d5efa3d0fcb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.25 : 1.725); (5.20833333333333 : 1.725 : JumpStart); (4.88541666666667 : 1.725 : JumpEnd); (4.875 : 1.725); (4.875 : 2.1); (4.375 : 2.1)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Category/Category_Menu" />
+      <nodes>
+        <classShapeMoniker Id="6254aa42-75e0-4763-bc96-ecd968f45193" />
+        <classShapeMoniker Id="53410623-9fb4-4877-81cf-9e680dff97f7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="456c909b-5681-4e15-b63d-88b5a8dcb5e0" isExpanded="false" absoluteBounds="3, 2.75, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5808dbc8-2412-44bf-a962-a854a03e057b" absoluteBounds="3.015, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.96875 : 2.75); (4.96875 : 0.53125); (5.625 : 0.53125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Payment/Payment_Bill" />
+      <nodes>
+        <classShapeMoniker Id="456c909b-5681-4e15-b63d-88b5a8dcb5e0" />
+        <classShapeMoniker Id="431846ef-beea-4a65-bf2f-f9d8fca10a43" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3fc5aac6-894d-47f7-bd9e-b6aa89196761" isExpanded="false" absoluteBounds="0.5, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Staff" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00f8fbd3-4542-4dd6-bac1-d292a58e9d5b" absoluteBounds="0.51500000000000012, 1.585, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.28125); (4.88541666666667 : 1.28125 : JumpStart); (5.20833333333333 : 1.28125 : JumpEnd); (7.46875 : 1.28125); (7.46875 : 0.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Staff/Staff_Bill" />
+      <nodes>
+        <classShapeMoniker Id="3fc5aac6-894d-47f7-bd9e-b6aa89196761" />
+        <classShapeMoniker Id="431846ef-beea-4a65-bf2f-f9d8fca10a43" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4288224e-1240-4843-936b-0ecd160ae269" isExpanded="false" absoluteBounds="0.5, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Statistic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ef01be8-90ab-4c98-a819-93019e21dcf4" absoluteBounds="0.51500000000000012, 3.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 2.625); (1.5 : 2.506249); (5.04166666666667 : 2.506249 : JumpStart); (5.20833333333333 : 2.506249 : JumpEnd); (5.375 : 2.506249)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Statistic/Statistic_DetailStatistic" />
+      <nodes>
+        <classShapeMoniker Id="4288224e-1240-4843-936b-0ecd160ae269" />
+        <classShapeMoniker Id="57283c55-6f1b-46c4-8bf5-a68349816504" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d82d111c-47f2-432a-8f9b-7bf9f78fadc1" isExpanded="false" absoluteBounds="0.5, 3.5, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/TableCf" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cfce63c5-cd21-470d-bf16-a8ff4056d1ec" absoluteBounds="0.51500000000000012, 3.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.79375); (5.04166666666667 : 3.79375 : JumpStart); (5.20833333333333 : 3.79375 : JumpEnd); (7.59375 : 3.79375); (7.59375 : 0.95)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/TableCf/TableCf_Bill" />
+      <nodes>
+        <classShapeMoniker Id="d82d111c-47f2-432a-8f9b-7bf9f78fadc1" />
+        <classShapeMoniker Id="431846ef-beea-4a65-bf2f-f9d8fca10a43" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="72705458-db5b-4dd2-8e85-d610e3d8c047" isExpanded="false" absoluteBounds="3.25, 4, 2, 0.45">
+      <DataClassMoniker Name="/QLCaFeDataContext/Voucher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="92318c39-f3cd-46df-b07b-0d42760778aa" absoluteBounds="3.265, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 4); (5.125 : 0.546875); (5.625 : 0.546875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLCaFeDataContext/Voucher/Voucher_Bill" />
+      <nodes>
+        <classShapeMoniker Id="72705458-db5b-4dd2-8e85-d610e3d8c047" />
+        <classShapeMoniker Id="431846ef-beea-4a65-bf2f-f9d8fca10a43" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

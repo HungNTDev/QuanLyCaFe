@@ -1,0 +1,9 @@
+F:\Project\QuanLyCaFe\DAL_QLCaFe\bin\Debug\DAL_QLCaFe.dll
+F:\Project\QuanLyCaFe\DAL_QLCaFe\bin\Debug\DAL_QLCaFe.pdb
+F:\Project\QuanLyCaFe\DAL_QLCaFe\bin\Debug\DTO_QLCaFe.dll
+F:\Project\QuanLyCaFe\DAL_QLCaFe\bin\Debug\DTO_QLCaFe.pdb
+F:\Project\QuanLyCaFe\DAL_QLCaFe\obj\Debug\DAL_QLCaFe.csproj.AssemblyReference.cache
+F:\Project\QuanLyCaFe\DAL_QLCaFe\obj\Debug\DAL_QLCaFe.csproj.CoreCompileInputs.cache
+F:\Project\QuanLyCaFe\DAL_QLCaFe\obj\Debug\DAL_QLCaFe.csproj.Up2Date
+F:\Project\QuanLyCaFe\DAL_QLCaFe\obj\Debug\DAL_QLCaFe.dll
+F:\Project\QuanLyCaFe\DAL_QLCaFe\obj\Debug\DAL_QLCaFe.pdb
